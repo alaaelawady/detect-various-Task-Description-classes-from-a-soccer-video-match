@@ -1,5 +1,8 @@
 # detect-various-Task-Description-classes-from-a-soccer-video-match
 
+- 
+""" DETRmodeldetecct_all_classes """
+
 
 In this experiment, we applied the DETR (Detection Transformer) model to an original dataset without remapping the annotations to classes 0:5 and without merging the left and right teams. The primary objective was to evaluate the model's performance using the COCO (Common Objects in Context) format, which is suitable for the DETR model. We transformed the dataset from YOLO format to COCO format and investigated the model's ability to differentiate between 7 classes.
 
